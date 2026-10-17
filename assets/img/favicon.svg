@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="vBrandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F3A"/>
+      <stop offset="100%" stop-color="#132D52"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded Square Container Matching .brand-icon -->
+  <rect x="2.5" y="2.5" width="59" height="59" rx="14" ry="14" fill="url(#vBrandGrad)" stroke="#F28C28" stroke-width="2.5" stroke-opacity="0.6"/>
+  <!-- Bold V Glyph Vector -->
+  <polygon points="15,18 23,18 29.5,37.5 36,18 44,18 33.5,46 25.5,46" fill="#FFFFFF"/>
+  <!-- Brand Accent Dot -->
+  <circle cx="48" cy="43" r="3.8" fill="#F28C28"/>
+</svg>
