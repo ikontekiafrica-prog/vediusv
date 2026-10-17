@@ -1,0 +1,103 @@
+# ==============================================================================
+# VEDIUS VEDASTO PORTFOLIO - PRODUCTION APACHE CONFIGURATION (.htaccess)
+# ==============================================================================
+
+# Prevent Directory Browsing
+Options -Indexes
+
+# Follow Symbolic Links
+Options +FollowSymLinks
+
+# Set Default Charset
+AddDefaultCharset UTF-8
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # ----------------------------------------------------------------------------
+  # 1. ENFORCE HTTPS
+  # ----------------------------------------------------------------------------
+  # Redirect all insecure HTTP traffic to HTTPS (301 Permanent Redirect)
+  RewriteCond %{HTTPS} off [OR]
+  RewriteCond %{HTTP:X-Forwarded-Proto} =http
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # ----------------------------------------------------------------------------
+  # 2. STRIP .HTML EXTENSION (EXTERNAL 301 REDIRECT)
+  # ----------------------------------------------------------------------------
+  # If a visitor or crawler explicitly requests /page.html, redirect them to /page
+  RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+(.*?)\.html[\s?] [NC]
+  RewriteRule ^ %1 [R=301,L]
+
+  # ----------------------------------------------------------------------------
+  # 3. INTERNAL ROUTING (SERVE .HTML FOR CLEAN EXTENSIONLESS URLS)
+  # ----------------------------------------------------------------------------
+  # If requested path is NOT an existing directory and NOT an existing file
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  # Check if adding .html matches an existing file
+  RewriteCond %{DOCUMENT_ROOT}/$1.html -f [OR]
+  RewriteCond %{REQUEST_FILENAME}.html -f
+  RewriteRule ^(.*)$ $1.html [L]
+
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 4. CUSTOM ERROR HANDLING
+# ------------------------------------------------------------------------------
+ErrorDocument 404 /index.html
+
+# ------------------------------------------------------------------------------
+# 5. SECURITY HEADERS
+# ------------------------------------------------------------------------------
+<IfModule mod_headers.c>
+  # Prevent MIME-type sniffing
+  Header always set X-Content-Type-Options "nosniff"
+
+  # Protect against clickjacking
+  Header always set X-Frame-Options "SAMEORIGIN"
+
+  # Cross-site scripting protection
+  Header always set X-XSS-Protection "1; mode=block"
+
+  # Strict Referrer Policy
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Enable HTTP Strict Transport Security (HSTS) - 1 Year
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 6. GZIP & BROTLI COMPRESSION
+# ------------------------------------------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
+  AddOutputFilterByType DEFLATE application/javascript application/x-javascript application/json
+  AddOutputFilterByType DEFLATE application/xml application/xhtml+xml application/rss+xml
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# ------------------------------------------------------------------------------
+# 7. BROWSER CACHING (MAXIMIZE SPEED & PERFORMANCE)
+# ------------------------------------------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+
+  # HTML documents (keep fresh)
+  ExpiresByType text/html "access plus 1 hour"
+
+  # CSS and JavaScript
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+
+  # Media: Images, Icons, Fonts
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+</IfModule>
