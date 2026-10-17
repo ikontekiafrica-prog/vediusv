@@ -1,0 +1,15 @@
+{
+  "name": "vedius-vedasto-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Freelance Portfolio of Vedius Vedasto - Web Developer, Digital Strategist, and Digital Skills Coach",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5",
+    "vite": "^6.2.0"
+  }
+}

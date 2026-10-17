@@ -1,0 +1,379 @@
+{
+  "Ikon Safaris": {
+    "url": "https://ikonsafaris.com/",
+    "finalUrl": "https://ikonsafaris.com/",
+    "status": 200,
+    "h1s": [
+      "Tanzania, thoughtfully experienced."
+    ],
+    "h2s": [
+      "Considered journeys. Lasting memories.",
+      "More than a game drive.",
+      "Professional people behind your experience.",
+      "Our Trusted Partners and Operators",
+      "ABOUT US",
+      "OUR COMPANY",
+      "OUR CONTACT INFO",
+      "Cookie Preferences"
+    ],
+    "tech": {
+      "isWordpress": false,
+      "isBootstrap": false,
+      "isTailwind": false,
+      "isReact": false
+    },
+    "imgs": [
+      {
+        "src": "/logo.png",
+        "alt": "Ikon Safaris logo"
+      },
+      {
+        "src": "/backend/uploads/packages/6aa03d253adb1_a-beautiful-and-breathtaking-wildlife-in-the-world-2024-01-24-16-55-34-utc.webp",
+        "alt": "4 Days Authentic Tour with Bushmen, Ngorongoro crater &amp; Lake Manyara National Park - Tanzania Safari"
+      },
+      {
+        "src": "/uploads/partners/frica-ndependent-dventures-1a5608.webp",
+        "alt": "Africa Independent Adventures Logo"
+      },
+      {
+        "src": "/backend/uploads/packages/6aa038c1d1f3a_lion-in-the-grass-of-masai-mara-kenya-2023-11-27-05-06-22-utc__1_.webp",
+        "alt": "5 Days Best Northern Tanzania Luxury Safari - Tanzania Safari"
+      },
+      {
+        "src": "/uploads/partners/frica-ndependent-dventures-1a5608.webp",
+        "alt": "Africa Independent Adventures Logo"
+      },
+      {
+        "src": "/backend/uploads/packages/6aa034547b460_zebras-drinking-at-the-serengeti-national-park-ta-2023-11-27-05-34-52-utc-1024x654__1_.webp",
+        "alt": "5 Days Tanzania Safari - Tanzania Safari"
+      },
+      {
+        "src": "/uploads/partners/frica-ndependent-dventures-1a5608.webp",
+        "alt": "Africa Independent Adventures Logo"
+      },
+      {
+        "src": "/backend/uploads/packages/6aa02814cb7ad_lake_eyasi_testo_1_00034bi__.webp",
+        "alt": "7 Days Safari to the Wilderness - Tanzania Safari"
+      },
+      {
+        "src": "/uploads/partners/frica-ndependent-dventures-1a5608.webp",
+        "alt": "Africa Independent Adventures Logo"
+      },
+      {
+        "src": "/backend/uploads/packages/6aa02300cfec4_zebras-galloping-in-a-river-serengeti-tanzania-2023-11-27-05-17-02-utc-1024x616.webp",
+        "alt": "9 Days The Great Wildebeest Migration Tour - Tanzania Safari"
+      }
+    ]
+  },
+  "Sauti Market": {
+    "url": "https://sautimarket.busteki.co.tz/",
+    "finalUrl": "https://sautimarket.busteki.co.tz/",
+    "status": 200,
+    "h1s": [
+      "Every Voice Is a Bridge to Opportunityyyyy."
+    ],
+    "h2s": [
+      "From Silence to Sauti",
+      "Join a Challenge. Find Your Voice."
+    ],
+    "tech": {
+      "isWordpress": false,
+      "isBootstrap": false,
+      "isTailwind": true,
+      "isReact": false
+    },
+    "imgs": [
+      {
+        "src": "sliders/5.jpg",
+        "alt": "Youth sharing a story"
+      }
+    ]
+  },
+  "IkonTeki Africa": {
+    "url": "https://ikonteki.co.tz/",
+    "finalUrl": "https://ikonteki.co.tz/",
+    "status": 200,
+    "h1s": [
+      "Building the Future of Tanzania's Digital Economy"
+    ],
+    "h2s": [
+      "Specialized Tech for Every Sector",
+      "Technological Leadership with Local Context"
+    ],
+    "tech": {
+      "isWordpress": false,
+      "isBootstrap": false,
+      "isTailwind": false,
+      "isReact": false
+    },
+    "imgs": [
+      {
+        "src": "images/ikonteki-africa-logo.png",
+        "alt": "IkonTeki Africa Logo"
+      },
+      {
+        "src": "images/ikonteki_her.jpeg",
+        "alt": "High-impact tech development at IkonTeki"
+      }
+    ]
+  },
+  "Africa Independent Adventures": {
+    "url": "https://africaindependentadventures.com/",
+    "finalUrl": "https://africaindependentadventures.com/",
+    "status": 200,
+    "h1s": [
+      "Discover Tanzania with Africa Independent Adventures, the local experts you can trust."
+    ],
+    "h2s": [
+      "Start with a journey curated for you by Africa Independent Adventures.",
+      "Most Popular Destinations",
+      "Authentic Tanzania journeys, expertly guided.",
+      "Frequently Asked Questions",
+      "ABOUT US",
+      "OUR COMPANY",
+      "POPULAR DESTINATION",
+      "OUR CONTACT INFO"
+    ],
+    "tech": {
+      "isWordpress": false,
+      "isBootstrap": false,
+      "isTailwind": false,
+      "isReact": false
+    },
+    "imgs": [
+      {
+        "src": "/logo.png",
+        "alt": "Africa Independent Adventures logo"
+      },
+      {
+        "src": "/images/slider/20220524_063722.webp",
+        "alt": "Tanzania wildlife safari game drive in Serengeti National Park"
+      },
+      {
+        "src": "/images/slider/IMG-20251025-WA0041.webp",
+        "alt": "Mount Kilimanjaro trekking expedition in Tanzania"
+      },
+      {
+        "src": "/images/slider/IMG-20251025-WA0042.webp",
+        "alt": "Ngorongoro Crater scenic wildlife safari and caldera"
+      },
+      {
+        "src": "/images/slider/IMG-20251025-WA0043.webp",
+        "alt": "Tarangire National Park baobab trees and elephants"
+      },
+      {
+        "src": "/images/slider/IMG-20251025-WA0044.webp",
+        "alt": "Zanzibar white sand tropical beaches and Indian Ocean holiday"
+      },
+      {
+        "src": "/images/slider/IMG_20250404_174058.webp",
+        "alt": "Authentic Tanzania cultural safari experience with local communities"
+      },
+      {
+        "src": "/backend/uploads/packages/6aa03d253adb1_a-beautiful-and-breathtaking-wildlife-in-the-world-2024-01-24-16-55-34-utc.webp",
+        "alt": "4 Days Authentic Tour with Bushmen, Ngorongoro crater &amp; Lake Manyara National Park - Tanzania Safari"
+      },
+      {
+        "src": "/backend/uploads/packages/6aa038c1d1f3a_lion-in-the-grass-of-masai-mara-kenya-2023-11-27-05-06-22-utc__1_.webp",
+        "alt": "5 Days Best Northern Tanzania Luxury Safari - Tanzania Safari"
+      },
+      {
+        "src": "/backend/uploads/packages/6aa034547b460_zebras-drinking-at-the-serengeti-national-park-ta-2023-11-27-05-34-52-utc-1024x654__1_.webp",
+        "alt": "5 Days Tanzania Safari - Tanzania Safari"
+      }
+    ]
+  },
+  "Ruttar Adventures": {
+    "url": "https://ruttaradventures.com/",
+    "finalUrl": "https://ruttaradventures.com/",
+    "status": 200,
+    "h1s": [
+      "Tanzania Safari Tours: Discover Wildlife Adventures with Ruttar Adventures"
+    ],
+    "h2s": [
+      "Your Journey, Our Passion.",
+      "Handcrafted Tanzania Safari Tours",
+      "Best Rated Tanzania Safari Tours",
+      "Iconic Destinations for Tanzania Safari Tours",
+      "Why Our Tanzania Safari Tours Stand Apart"
+    ],
+    "tech": {
+      "isWordpress": false,
+      "isBootstrap": false,
+      "isTailwind": false,
+      "isReact": false
+    },
+    "imgs": [
+      {
+        "src": "imgs/tanzania-safari-tour-operator-guide.jpg",
+        "alt": "Tanzania Safari Tours - Majestic lioness carrying cub in Serengeti National Park"
+      },
+      {
+        "src": "imgs/tanzania-safari-tours-game-viewing.jpg",
+        "alt": "Tanzania Safari Tours - Wildlife game viewing in national park"
+      },
+      {
+        "src": "imgs/tanzania-safari-tours-savannah-landscape.jpg",
+        "alt": "Tanzania Safari Tours - African savannah acacia tree landscape"
+      },
+      {
+        "src": "imgs/tanzania-safari-tours-4x4-land-cruiser.jpg",
+        "alt": "Tanzania Safari Tours - Custom 4x4 pop-up roof safari vehicle"
+      },
+      {
+        "src": "imgs/tanzania-safari-tours-cultural-heritage.jpg",
+        "alt": "Tanzania Safari Tours - Authentic Tanzanian cultural heritage encounter"
+      },
+      {
+        "src": "imgs/tanzania-safari-tour-operator-northern-circuit.jpg",
+        "alt": "Tanzania Safari Tours - Ruttar Adventures safari guiding team in Morogoro"
+      },
+      {
+        "src": "imgs/tanzania-safari-tours-big-five-wildlife.jpg",
+        "alt": "Tanzania Safari Tours - Big five wildlife safari adventures"
+      },
+      {
+        "src": "imgs/tanzania-safari-packages-zanzibar-beach.jpg",
+        "alt": "Tanzania Safari Tours - Zanzibar white sand beach and turquoise waters"
+      },
+      {
+        "src": "imgs/tanzania-safari-tours-kilimanjaro-trekking.jpg",
+        "alt": "Tanzania Safari Tours - Mount Kilimanjaro trekking expedition"
+      },
+      {
+        "src": "imgs/tanzania-safari-tours-maasai-village.jpg",
+        "alt": "Tanzania Safari Tours - Maasai cultural tour and village visit"
+      }
+    ]
+  },
+  "Africa Travel Safari & Tours (Africa TST)": {
+    "url": "https://africatst.com/",
+    "finalUrl": "https://africatst.com/",
+    "status": 200,
+    "h1s": [
+      "Your Journey Begins Here"
+    ],
+    "h2s": [
+      "Discover the Heart of Africa",
+      "Explore Iconic Safari Destinations with Afica Travel Safari &amp; Tours",
+      "The Best Travel &amp; Adventure",
+      "Why You Should Choose Africa Travel Safari &amp; Tours?",
+      "What Our Guests Testify about Africa Travel Safari &amp; Tours",
+      "Choose Our Tour Types &amp; Enjoy Now",
+      "Travel Specialties",
+      "Quick Links"
+    ],
+    "tech": {
+      "isWordpress": true,
+      "isBootstrap": true,
+      "isTailwind": false,
+      "isReact": true
+    },
+    "imgs": [
+      {
+        "src": "https://africatst.com/wp-content/uploads/2023/11/logo-africa-safari-and-tours-01.png",
+        "alt": "Africa Travel Safari &amp; Tours"
+      },
+      {
+        "src": "https://africatst.com/wp-content/uploads/2023/11/logo-africa-safari-and-tours-01.png",
+        "alt": "Africa Travel Safari &amp; Tours"
+      },
+      {
+        "src": "https://africatst.com/wp-content/uploads/2025/10/lion-at-serengeti-africa-travel-20.jpg",
+        "alt": "Africa Travel Safari &amp; Tours"
+      },
+      {
+        "src": "https://africatst.com/wp-content/uploads/2023/11/about-2-2.jpg",
+        "alt": "Africa Travel Safari &amp; Tours"
+      },
+      {
+        "src": "https://africatst.com/wp-content/uploads/2023/11/about-2-shape.png",
+        "alt": "alt"
+      },
+      {
+        "src": "https://africatst.com/wp-content/uploads/2025/10/destination-tanzania-africa-travel.jpg",
+        "alt": "destination-tanzania-africa-travel"
+      },
+      {
+        "src": "https://africatst.com/wp-content/uploads/2025/10/destination-kenya-africa-travel0.jpg",
+        "alt": "destination-kenya-africa-travel0"
+      },
+      {
+        "src": "https://africatst.com/wp-content/uploads/2025/10/destination-south-africa-africa-travel-safari.jpg",
+        "alt": "destination-south-africa-africa-travel-safari"
+      },
+      {
+        "src": "https://africatst.com/wp-content/uploads/2025/10/destination-zanzibar-beaches-africa-travel-s.jpg",
+        "alt": "destination-zanzibar-beaches-africa-travel-s"
+      },
+      {
+        "src": "https://africatst.com/wp-content/uploads/2025/10/destination-namibia-africa-travel-safari0.jpg",
+        "alt": "destination-namibia-africa-travel-safari0"
+      }
+    ]
+  },
+  "G-Family Adventure Safaris": {
+    "url": "https://g-familyadventures.com/",
+    "finalUrl": "https://g-familyadventures.com/",
+    "status": 200,
+    "h1s": [
+      "Discover Tanzania with G-Family Adventure Safaris, the local experts you can trust."
+    ],
+    "h2s": [
+      "Travel deeper with journeys designed around what matters to you.",
+      "Most Popular Destinations",
+      "Authentic East African journeys, responsibly guided.",
+      "Quick Links",
+      "Our Contact Info",
+      "Ready to plan your East African journey?"
+    ],
+    "tech": {
+      "isWordpress": false,
+      "isBootstrap": false,
+      "isTailwind": false,
+      "isReact": false
+    },
+    "imgs": [
+      {
+        "src": "/logo.png",
+        "alt": "G-Family Adventure Safaris logo"
+      },
+      {
+        "src": "/backend/uploads/packages/6aabed9006d75_HlAixIX24mHb1Nso17PYL0H2ZdAlN6DGYO6yCREjX5UBHAEXafA9DWnXH5PRtz9WImqC5mhoRm97I3kgIEcVDXCNl-YIY-HKMszxjwyURGlM6TBNZgccheNXmA_FIfxC2ASj0C3AZtV5wXPZHakfCoqvROs9OTRNQOlCe2eByq4Rlv6cmNuxALgg5GqI1XwC.webp",
+        "alt": "Experience Quad biking tour from Nungwi."
+      },
+      {
+        "src": "/backend/uploads/packages/6aabe29c6a6f3_lAsTSozD56tvuOZpXHlRlIdoJ0ftBng3Goe0kncpVOH06xzPD0N_U_P-YbgbrZva015GD_J0fIB2Tm5PoEj9YkAWMrWCPCYuzNn0fG3pNZvjmcz0pnIcf1inLtVL4DxAO1Q6xg6XGVpVDvfsD2K-jmioiytmxLzfmySJn-MNyVSWbj9L1_s8-Gp6TNMDP3UG.webp",
+        "alt": " Dolphin watching and snorkeling around Mnemba Atoll."
+      },
+      {
+        "src": "/backend/uploads/packages/6aabd741bb298_pdpe4hQIRA5NuNyXPiXGMEKApCbT8qsq7-ZHIRKp7xI15TIRXWBARzqpJAVj4Ic3zKvsobvYQlLv-s_corSHZWbYu_tCQXFh_tmOkLeIf9pJ4Y_Fva-gJzi6_1NQsTZkSzZWRO7bhc_9nV-AxjyBa3GGDaiS8jaOpjzsZ7ecg-_oV1xzbmU26SUujn8PHnWN.webp",
+        "alt": "Full-day island adventure from Stone Town, combining the historical and natural attractions of Prison Island."
+      },
+      {
+        "src": "/backend/uploads/packages/6aaa69cc22317_9vYIR-bZJNT65yClhPDU_JRQJZ-j2PTyg7pdRR_fhTSDtRBQfa2-nKZr69mO_B_Uwc0aXGVWuy8MBTcfd3xjeUssLzDtLnWn-xcjsD0aDRoXPu0v_3NFyO-xqffK3qH3_Fvogoc8egkxWa-DnlNiUx_ccrlQ5oOY23-cT_WIkoOlJ3nRgOgIiwVEkOYq5Q0E.webp",
+        "alt": "Discover the natural beauty of Jozani Chwaka Bay National Park, Zanzibar’s only national park, on a day trip from Stone Town."
+      },
+      {
+        "src": "/backend/uploads/packages/6aa92f937ed63_-CjAOZztOSRMf2b7uj7bGyMRXXlFcAJFfLSN1Q_vTeF24q5VyGEN2QbHbh6HG77-1M61SPj4XCdsqJ3G8nkV1AA-AD_TXK2mvmYSqU58k2qMnfrtHnESQfBu2UggW2uHSVhN8QaEkyLT1p8AnqN4igAAa5gra5677UrHr3cRTf_7ddnjEu6iAHHdqDEiYpbY.webp",
+        "alt": "Rubondo Island National Park Safari"
+      },
+      {
+        "src": "/backend/uploads/packages/6aa926228c4a1_66S8FaQqRQ1ILCZefDLuhtbiZz5oGifSIPZwgMH-2D-vuukFm1y7wII8ntH0WVv0mXZQJ39erpIXAiA_HaZH43sVwkYT0_7EWBprY4oo1HfK4JuL6Mwp-BHReTHOPRUHCWrQgl2SBE-ThRkEzvhzlPqPrHuRl0iFMxRO7eJHMEKBg_n_-hhp2aiV8we9v83e.webp",
+        "alt": "Gombe National Park Chimpanzee Safari"
+      },
+      {
+        "src": "/uploads/destinations/6aac46b483904_images__19_.webp",
+        "alt": "Lake Manyara National Park"
+      },
+      {
+        "src": "/uploads/destinations/6aac483d39bad_images__20_.webp",
+        "alt": "Lake Eyasi"
+      },
+      {
+        "src": "/uploads/destinations/6aac488c00e88_Ngorongoro-National-Park-Tanzania.webp",
+        "alt": "Ngorongoro Conservation Area &amp; Crater"
+      }
+    ]
+  }
+}
