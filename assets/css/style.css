@@ -833,7 +833,7 @@ img {
    ========================================================================== */
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 2rem;
 }
 
@@ -2152,4 +2152,148 @@ textarea.form-control {
     padding: 1.25rem !important;
   }
 }
+
+/* ==========================================================================
+   Tech Stack Pills & Mobile App Enhancements
+   ========================================================================== */
+.tech-stack-wrap {
+  margin-top: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.tech-stack-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.65rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.tech-pill-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.tech-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.85rem;
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary-navy);
+  box-shadow: 0 1px 3px rgba(11, 31, 58, 0.05);
+  transition: all var(--transition-fast);
+  white-space: nowrap;
+}
+
+.tech-pill:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent-orange);
+  box-shadow: 0 6px 16px rgba(242, 140, 40, 0.16);
+  color: var(--primary-navy);
+}
+
+.tech-pill i {
+  font-size: 0.95rem;
+}
+
+.tech-pill.php i { color: #6C7EB7; }
+.tech-pill.js i { color: #D69E2E; }
+.tech-pill.sql i { color: #00758F; }
+.tech-pill.html i { color: #E44D26; }
+.tech-pill.css i { color: #1572B6; }
+.tech-pill.react i { color: #087EA4; }
+.tech-pill.node i { color: #339933; }
+.tech-pill.marketing i { color: var(--accent-orange); }
+
+/* Dark mode variant for dark sections */
+.section-dark .tech-pill {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.15);
+  color: #FFFFFF;
+}
+
+.section-dark .tech-pill:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+  border-color: var(--accent-orange);
+  color: #FFFFFF;
+}
+
+/* Feature Badge Ribbon */
+.app-feature-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.75rem;
+  background-color: var(--accent-green-subtle);
+  color: var(--accent-green);
+  border-radius: var(--radius-full);
+  font-size: 0.775rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* Skills Category Card Grid */
+.skills-card-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.25rem;
+}
+
+@media (max-width: 900px) {
+  .skills-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.skill-spec-item {
+  background-color: var(--bg-light);
+  padding: 1.25rem;
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--accent-orange);
+  transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.skill-spec-item:hover {
+  transform: translateX(4px);
+  border-left-color: var(--accent-green);
+}
+
+.skill-spec-item.border-green {
+  border-left-color: var(--accent-green);
+}
+
+.skill-spec-item.border-green:hover {
+  border-left-color: var(--accent-orange);
+}
+
+.tech-tag-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.65rem;
+}
+
+.tech-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.55rem;
+  background-color: #FFFFFF;
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  color: var(--text-secondary);
+}
+
 
